@@ -284,7 +284,7 @@ header{
 	font-size: 14px;
 	width: 250px;
 	color: rgba(0, 0, 0, 0.7);
-
+	line-height: 21px;
 }
 // .product-all-tottal{
 // 	font-size: 14px;
@@ -458,7 +458,7 @@ header{
 	width: 100%;
 	border: 1px solid rgba(0, 0, 0, 0.06);
 	border-radius: 10px;
-	padding: 20px;
+	padding: 17px;
 	margin-bottom: 30px;
 }
 .avatar-commments{
@@ -728,7 +728,7 @@ footer{
 	position: relative;
 	max-width: 350px;
 	width: 100%;
-	margin-bottom: 30px;
+	margin-bottom: 43px;
 }
 .work-img{
 	height: 330px;
@@ -756,7 +756,7 @@ footer{
 	max-width: 350px;
 	width: 100%;
 	position: relative;
-	margin-bottom: 40px;
+	margin-bottom: 36px;
 }
 .article-main{
 	margin-top: 50px;
@@ -770,6 +770,16 @@ footer{
 		height: 100%;
 		border-radius: 10px;
 	}
+}
+.product-all-title.title-categ{
+	font-size: 20px;
+}
+.product-all-tottal.bigSize{
+	font-size: 18px;
+}
+.title-page.qus{
+	margin-top: 66px;
+	margin-bottom:53px; 
 }
 .ready-work-link{
 	position: absolute;
@@ -825,6 +835,7 @@ footer{
 		font-size: 28px;
 		position: relative;
 		margin: 26px 0 6px 0;
+		line-height: 42px;
 		&::before{
 			content: '';
 			width: 6px;
@@ -858,18 +869,22 @@ footer{
 .more-article-title{
 	font-family: $mainBold;
 	font-size: 28px;
+	margin-bottom: 24px;
 }
 .error{
 	position: relative;
 	font-size: 80px;
 	font-family: $mainBold;
-	margin: 120px 0 0 0;
+	margin: 125px 0 0 0;
 	color: $mainColor;
+	line-height: 88px;
 }
 .sub-error{
 	font-size: 18px;
 	line-height: 30px;
 	color: rgba(0, 0, 0, 0.7);
+	position: relative;
+	margin: 0;
 }
 .button-home{
 	padding: 15px 30px;
@@ -982,7 +997,7 @@ footer{
 	}
 }
 .example{
-	margin: 50px 0 60px 0;
+	margin: 0 0 60px 0;
 }
 .example-services{
 	margin-bottom: 70px;
@@ -1024,8 +1039,7 @@ footer{
 }
 .wpcf7-list-item-label {
 		font-size: 16px;
-		color: rgba(0, 0, 0, 0.85);
-		opacity: 0.8;
+		color: rgba(0, 0, 0, 0.7);
 		padding-top: 10px;
 		padding-left: 50px;
 		position: relative;
@@ -1124,7 +1138,7 @@ footer{
 .goods-price-old{
 	font-family: $mainBold;
 	font-size: 16px;
-	opacity: 0.5;
+	color: rgba(0, 0, 0, 0.5);
 	text-decoration-line: line-through;
 	margin: 0;
 }
@@ -1225,11 +1239,12 @@ footer{
 }
 p.product-all-tottal{
 	color: rgba(0, 0, 0, 0.5);
-	font-size: 18px;
+	font-size: 14px;
+	line-height: 15px;
 }
 .goods-total-title{
 	font-family: $mainBold;
-	opacity: 0.75;
+	color: rgba(0, 0, 0, 0.75);
 	font-size: 14px;
 	margin: 0 0 2px 0;
 }
@@ -1409,7 +1424,7 @@ button.mfp-arrow, button.mfp-close{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin: 25px 0 0 10px;
+	margin: 25px 0 0 16px;
 	span{
 		&::before{
 			margin-left: 0;
@@ -1427,7 +1442,7 @@ button.mfp-arrow, button.mfp-close{
 .sum-total{
 	display: flex;
 	justify-content: flex-end;
-	margin: 0px 0 30px 0 ;
+	margin: 16px 0 30px 0 ;
 	p{
 		font-size: 14px;
 		line-height: 30px;
@@ -1443,14 +1458,18 @@ button.mfp-arrow, button.mfp-close{
 }
 .baskets-block{
 	border-bottom:1px solid rgba(0, 0, 0, 0.08);
-	padding-bottom: 30px;
-	margin-bottom: 50px;
+	padding-bottom: 20px;
+	margin-bottom: 10px;
+	margin-top: 14px;
 }
 .price-baskets-product{
 	font-family: $mainBold;
 	font-size: 20px;
 	margin: 55px 0 0 0;
 	color: rgba(0, 0, 0, 0.75);
+}
+.goods-total-title.bask{
+	font-family: $mainFont;
 }
 //
 // .menu {
@@ -1770,20 +1789,28 @@ img.prevButton.slick-arrow{
 }
 .title-page.designer{
 	margin-bottom: 40px;
+	margin-top: 66px;
 }
 .icon-page.iconCont{
 	margin-top: 0;
 }
 .title-page.work-page{
 	margin-bottom: 40px;
+	margin-top: 66px;
 }
 .pagination-page.article{
-	margin-top: 55px;
+	margin-top: 15px;
 }
 .title-page.errors{
-	margin-top: 60px;
+	margin-top: 53px;
+	line-height: 55px;
+	margin-bottom: 27px;
 }
 .pagination-page.up{
-	margin-top: 50px;
+	margin-top: 30px;
 }
+input[type="text"]::-webkit-input-placeholder { color: rgba(0, 0, 0, 0.4); }
+input[type="text"]:-ms-input-placeholder { color: rgba(0, 0, 0, 0.4); }
+   input[type="text"]::-ms-input-placeholder { color: rgba(0, 0, 0, 0.4); }
+   input[type="text"]::placeholder { color: rgba(0, 0, 0, 0.4); } 
 @import "media"; // Always at the end
