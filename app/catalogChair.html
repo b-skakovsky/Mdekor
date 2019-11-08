@@ -7,9 +7,7 @@
 	<meta name="description" content="">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<meta property="og:image" content="path/to/image.jpg">
-	<link rel="icon" href="img/favicon/favicon.ico">
-	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+	<link rel="icon" href="img/favicon/favicon.png">
 	<link rel="stylesheet" href="libs/font/flaticon.css">
 	<link rel="stylesheet" href="css/main.min.css">
 </head>
@@ -26,21 +24,21 @@
 					<div class="header-info">
 						<div class="phone-info">
 							<div class="icon-page">
-								<span class="flaticon-call-answer ico"></span>
+								<img src="img/tell.svg">
 							</div>
 							<a href="tel:+3517760815" class="phone-tell">(351) 776-08-15</a>
 							<a href="#test-form" class="order-button popup-with-form">заказать звонок</a>
 						</div>
 						<div class="heade-address">
 							<div class="icon-page">
-								<span class="flaticon-placeholder-for-map"></span>
+								<img src="img/local.svg">
 							</div>
 							<a href="#" class="link-address">Челябинск, К.Маркса 81</a>
 							<p class="sub-date">с 9 до 18 Пн–Пт</p>
 						</div>
 						<div class="header-email">
 							<div class="icon-page up-margin">
-								<span class="flaticon-close-envelope"></span>
+								<img src="img/email.svg">
 							</div>
 							<a href="mailto:zakaz@ural-postavka.ru" class="link-email">zakaz@ural-postavka.ru</a>
 						</div>
@@ -50,7 +48,7 @@
 					<div class="header-baskets">
 						<a href="baskets.html" class="link-baskets"></a>
 						<div class="icon-baskets">
-							<span class="flaticon-shopping-cart-of-checkered-design"></span>
+							<img src="img/baskets.svg">
 						</div>
 						<div class="total-product">
 							<p>2</p>
@@ -130,23 +128,24 @@
 	</header>
 	<section>
 		<div class="container">
-			<p class="title-page">Кресла, стулья</p>
+			<p class="title-page chair-box">Кресла, стулья</p>
 		</div>
 	</section>
 	<section class="catalogChair">
 		<div class="container">
 			<div class="row">
 				<div class="col-xl-4 col-lg-6">
-					<div class="catalog">
-						<div class="catalog-img">
-							<img src="img/Rectangle.png" alt="">
+					<a href="#" class="link-catalog">
+						<div class="catalog">
+							<div class="catalog-img">
+								<img src="img/Rectangle.png" alt="">
+							</div>
+							<div class="catalog-info">
+								<p class="product-all-title title-categ">Кресла для руководителей</p>
+								<p class="product-all-tottal bigSize">47 товаров</p>
+							</div>
 						</div>
-						<div class="catalog-info">
-							<p class="product-all-title title-categ">Кресла для руководителей</p>
-							<p class="product-all-tottal bigSize">47 товаров</p>
-						</div>
-						<a href="#" class="link-catalog"></a>
-					</div>
+					</a>	
 				</div>
 				<div class="col-xl-4 col-lg-6">
 					<div class="catalog">
@@ -199,7 +198,7 @@
 			</div>
 		</div>
 	</section>
-	<section>
+	<section class="filter-section">
 		<div class="container">
 			<div class="row">
 				<div class="col-xl-3 col-lg-3 col-md-12">
@@ -219,7 +218,7 @@
 								</div>
 							</div>
 							<div class="filter-style">
-								<p class="filter-title">Стиль</p>
+								<p class="filter-title ">Стиль</p>
 								<div class="filter-item">
 									<label class="filter">
 									    <span class="wpcf7-form-control-wrap pomosh">
@@ -246,7 +245,7 @@
 								</div>
 							</div>
 							<div class="filter-style">
-								<p class="filter-title">Цвет</p>
+								<p class="filter-title filter-sub">Цвет</p>
 								<div class="filter-item">
 									<label class="filter">
 									    <span class="wpcf7-form-control-wrap pomosh">
@@ -284,7 +283,7 @@
 								</div>
 							</div>
 							<div class="filter-style">
-								<p class="filter-title">Материал</p>
+								<p class="filter-title filter-sub">Материал</p>
 								<div class="filter-item">
 									<label class="filter">
 									    <span class="wpcf7-form-control-wrap pomosh">
@@ -316,189 +315,198 @@
 					<div class="row">
 						<div class="col-xl-4 col-lg-6 col-md-6 col-md-6 col-sm-6 col-6">
 							<div class="product">
-								<div class="product-item">
-									<div class="product-img">
-										<img src="img/product.png" alt="">
-										<div class="discount">
-											<p>-10%</p>
+								<a href="goods.html" class="product-info">
+									<div class="product-item">
+										<div class="product-img">
+											<img src="img/product.png" alt="">
+											<div class="discount">
+												<p>-10%</p>
+											</div>
+										</div>
+										<p class="name-product">Кресло 12323412</p>
+										<div class="price-product">
+											<p class="new-price">от 10 032 р.</p>
+											<p class="old-price">от 12 032 р. </p>
 										</div>
 									</div>
-									<p class="name-product">Кресло 12323412</p>
-									<div class="price-product">
-										<p class="new-price">от 10 032 р.</p>
-										<p class="old-price">от 12 032 р. </p>
-									</div>
-									<a href="goods.html" class="product-info"></a>
-								</div>
+								</a>	
 								<a href="#form-product" class="popup-with-form button">Купить</a>
 							</div>
 						</div>
 						<div class="col-xl-4 col-lg-6 col-md-6 col-md-6 col-sm-6 col-6">
 							<div class="product">
-								<div class="product-item">
-									<div class="product-img">
-										<img src="img/product1.png" alt="">
-										<div class="discount">
-											<p>-10%</p>
+								<a href="goods.html" class="product-info">
+									<div class="product-item">
+										<div class="product-img">
+											<img src="img/product1.png" alt="">
+											<div class="discount">
+												<p>-10%</p>
+											</div>
+										</div>
+										<p class="name-product">Кресло 12323412</p>
+										<div class="price-product">
+											<p class="new-price">от 10 032 р.</p>
+											<p class="old-price">от 12 032 р. </p>
 										</div>
 									</div>
-									<p class="name-product">Кресло 12323412</p>
-									<div class="price-product">
-										<p class="new-price">от 10 032 р.</p>
-										<p class="old-price">от 12 032 р. </p>
-									</div>
-									<a href="goods.html" class="product-info"></a>
-								</div>
+								</a>						
 								<a href="#form-product" class="popup-with-form button">Купить</a>
 							</div>
 						</div>
 						<div class="col-xl-4 col-lg-6 col-md-6 col-md-6 col-sm-6 col-6">
 							<div class="product">
-								<div class="product-item">
-									<div class="product-img">
-										<img src="img/product2.png" alt="">
-										<div class="discount">
-											<p>-10%</p>
+								<a href="goods.html" class="product-info">
+									<div class="product-item">
+										<div class="product-img">
+											<img src="img/product2.png" alt="">
+											<div class="discount">
+												<p>-10%</p>
+											</div>
+										</div>
+										<p class="name-product">Кресло 12323412</p>
+										<div class="price-product">
+											<p class="new-price">от 10 032 р.</p>
+											<p class="old-price">от 12 032 р. </p>
 										</div>
 									</div>
-									<p class="name-product">Кресло 12323412</p>
-									<div class="price-product">
-										<p class="new-price">от 10 032 р.</p>
-										<p class="old-price">от 12 032 р. </p>
-									</div>
-									<a href="goods.html" class="product-info"></a>
-								</div>
+								</a>	
 								<a href="#form-product" class="popup-with-form button">Купить</a>
 							</div>
 						</div>
 						<div class="col-xl-4 col-lg-6 col-md-6 col-md-6 col-sm-6 col-6">
 							<div class="product">
-								<div class="product-item">
-									<div class="product-img">
-										<img src="img/product.png" alt="">
-										<div class="discount">
-											<p>-10%</p>
+								<a href="goods.html" class="product-info">
+									<div class="product-item">
+										<div class="product-img">
+											<img src="img/product.png" alt="">
+											<div class="discount">
+												<p>-10%</p>
+											</div>
+										</div>
+										<p class="name-product">Кресло 12323412</p>
+										<div class="price-product">
+											<p class="new-price">от 10 032 р.</p>
+											<p class="old-price">от 12 032 р. </p>
 										</div>
 									</div>
-									<p class="name-product">Кресло 12323412</p>
-									<div class="price-product">
-										<p class="new-price">от 10 032 р.</p>
-										<p class="old-price">от 12 032 р. </p>
-									</div>
-									<a href="goods.html" class="product-info"></a>
-								</div>
+								</a>	
 								<a href="#form-product" class="popup-with-form button">Купить</a>
 							</div>
 						</div>
 						<div class="col-xl-4 col-lg-6 col-md-6 col-md-6 col-sm-6 col-6">
 							<div class="product">
-								<div class="product-item">
-									<div class="product-img">
-										<img src="img/product1.png" alt="">
-										<div class="discount">
-											<p>-10%</p>
+								<a href="goods.html" class="product-info">
+									<div class="product-item">
+										<div class="product-img">
+											<img src="img/product1.png" alt="">
+											<div class="discount">
+												<p>-10%</p>
+											</div>
+										</div>
+										<p class="name-product">Кресло 12323412</p>
+										<div class="price-product">
+											<p class="new-price">от 10 032 р.</p>
+											<p class="old-price">от 12 032 р. </p>
 										</div>
 									</div>
-									<p class="name-product">Кресло 12323412</p>
-									<div class="price-product">
-										<p class="new-price">от 10 032 р.</p>
-										<p class="old-price">от 12 032 р. </p>
-									</div>
-									<a href="goods.html" class="product-info"></a>
-								</div>
+								</a>	
 								<a href="#form-product" class="popup-with-form button">Купить</a>
 							</div>
 						</div>
 						<div class="col-xl-4 col-lg-6 col-md-6 col-md-6 col-sm-6 col-6">
 							<div class="product">
-								<div class="product-item">
-									<div class="product-img">
-										<img src="img/product2.png" alt="">
-										<div class="discount">
-											<p>-10%</p>
+								<a href="goods.html" class="product-info">
+									<div class="product-item">
+										<div class="product-img">
+											<img src="img/product2.png" alt="">
+											<div class="discount">
+												<p>-10%</p>
+											</div>
+										</div>
+										<p class="name-product">Кресло 12323412</p>
+										<div class="price-product">
+											<p class="new-price">от 10 032 р.</p>
+											<p class="old-price">от 12 032 р. </p>
 										</div>
 									</div>
-									<p class="name-product">Кресло 12323412</p>
-									<div class="price-product">
-										<p class="new-price">от 10 032 р.</p>
-										<p class="old-price">от 12 032 р. </p>
-									</div>
-									<a href="goods.html" class="product-info"></a>
-								</div>
+								</a>	
 								<a href="#form-product" class="popup-with-form button">Купить</a>
 							</div>
 						</div>
 						<div class="col-xl-4 col-lg-6 col-md-6 col-md-6 col-sm-6 col-6">
 							<div class="product">
-								<div class="product-item">
-									<div class="product-img">
-										<img src="img/product.png" alt="">
-										<div class="discount">
-											<p>-10%</p>
+								<a href="goods.html" class="product-info">
+									<div class="product-item">
+										<div class="product-img">
+											<img src="img/product.png" alt="">
+											<div class="discount">
+												<p>-10%</p>
+											</div>
+										</div>
+										<p class="name-product">Кресло 12323412</p>
+										<div class="price-product">
+											<p class="new-price">от 10 032 р.</p>
+											<p class="old-price">от 12 032 р. </p>
 										</div>
 									</div>
-									<p class="name-product">Кресло 12323412</p>
-									<div class="price-product">
-										<p class="new-price">от 10 032 р.</p>
-										<p class="old-price">от 12 032 р. </p>
-									</div>
-									<a href="goods.html" class="product-info"></a>
-								</div>
+								</a>	
 								<a href="#form-product" class="popup-with-form button">Купить</a>
 							</div>
 						</div>
 						<div class="col-xl-4 col-lg-6 col-md-6 col-md-6 col-sm-6 col-6">
 							<div class="product">
-								<div class="product-item">
-									<div class="product-img">
-										<img src="img/product1.png" alt="">
-										<div class="discount">
-											<p>-10%</p>
+								<a href="goods.html" class="product-info">
+									<div class="product-item">
+										<div class="product-img">
+											<img src="img/product1.png" alt="">
+											<div class="discount">
+												<p>-10%</p>
+											</div>
+										</div>
+										<p class="name-product">Кресло 12323412</p>
+										<div class="price-product">
+											<p class="new-price">от 10 032 р.</p>
+											<p class="old-price">от 12 032 р. </p>
 										</div>
 									</div>
-									<p class="name-product">Кресло 12323412</p>
-									<div class="price-product">
-										<p class="new-price">от 10 032 р.</p>
-										<p class="old-price">от 12 032 р. </p>
-									</div>
-									<a href="goods.html" class="product-info"></a>
-								</div>
+								</a>	
 								<a href="#form-product" class="popup-with-form button">Купить</a>
 							</div>
 						</div>
 						<div class="col-xl-4 col-lg-6 col-md-6 col-md-6 col-sm-6 col-6">
 							<div class="product">
-								<div class="product-item">
-									<div class="product-img">
-										<img src="img/product2.png" alt="">
-										<div class="discount">
-											<p>-10%</p>
+								<a href="goods.html" class="product-info">
+									<div class="product-item">
+										<div class="product-img">
+											<img src="img/product2.png" alt="">
+											<div class="discount">
+												<p>-10%</p>
+											</div>
+										</div>
+										<p class="name-product">Кресло 12323412</p>
+										<div class="price-product">
+											<p class="new-price">от 10 032 р.</p>
+											<p class="old-price">от 12 032 р. </p>
 										</div>
 									</div>
-									<p class="name-product">Кресло 12323412</p>
-									<div class="price-product">
-										<p class="new-price">от 10 032 р.</p>
-										<p class="old-price">от 12 032 р. </p>
-									</div>
-									<a href="goods.html" class="product-info"></a>
-								</div>
+								</a>	
 								<a href="#form-product" class="popup-with-form button">Купить</a>
 							</div>
 						</div>
-					</div>
-					<div class="pagination-page up">
-						<ul>
-							<li> <a href="#"> <span class="flaticon-left-arrow"></span> </a> </li>
-							<li> <a href="#" class="active">1</a> </li>
-							<li> <a href="#">2</a> </li>
-							<li> <a href="#">3</a> </li>
-							<li> <a href="#">...</a> </li>
-							<li> <a href="#">7</a> </li>
-							<li> <a href="#">8</a> </li>
-							<li> <a href="#"><span class="flaticon-right-arrow"></span></a> </li>
-						</ul>
 					</div>
 				</div>
+			</div>
+			<div class="pagination-page up">
+				<ul>
+					<li> <a href="#"> <span class="flaticon-left-arrow"></span> </a> </li>
+					<li> <a href="#" class="active">1</a> </li>
+					<li> <a href="#">2</a> </li>
+					<li> <a href="#">3</a> </li>
+					<li> <a href="#">...</a> </li>
+					<li> <a href="#">7</a> </li>
+					<li> <a href="#">8</a> </li>
+					<li> <a href="#"><span class="flaticon-right-arrow"></span></a> </li>
+				</ul>
 			</div>
 		</div>
 	</section>
@@ -522,21 +530,21 @@
 							<div class="contact-block-footer">
 								<div class="phone-info tell-down">
 									<div class="icon-page footer-page">
-										<span class="flaticon-call-answer ico"></span>
+										<img src="img/tell.svg">
 									</div>
 									<a href="tel:+3517760815" class="phone-tell">(351) 776-08-15</a>
 									<a href="#test-form" class="order-button popup-with-form">заказать звонок</a>
 								</div>
 								<div class="heade-address tell-down">
 									<div class="icon-page footer-page">
-										<span class="flaticon-placeholder-for-map"></span>
+										<img src="img/local.svg">
 									</div>
 									<a href="#" class="link-address">Челябинск, К.Маркса 81</a>
 									<p class="sub-date">с 9 до 18 Пн–Пт</p>
 								</div>
 								<div class="header-email footer-email">
 									<div class="icon-page ">
-										<span class="flaticon-close-envelope"></span>
+										<img src="img/email.svg">
 									</div>
 									<a href="mailto:zakaz@ural-postavka.ru" class="link-email">zakaz@ural-postavka.ru</a>
 								</div>
@@ -659,9 +667,8 @@
 		 </div>
 		 <div class="goods-button">
 			 <a href="#" class="button">В корзину</a>
-			 <a href="#" class="button-opacity">Купить сейчас</a>
+			 <a href="#" class="button-opacity">Продолжить покупки</a>
 		 </div>
-	</div>
-	<script src="js/scripts.min.js"></script>
+	</div>rc="js/scripts.min.js"></script>
 </body>
 </html>
